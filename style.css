@@ -1,3 +1,7 @@
+body {
+    font-family: "Noto Sans TC", sans-serif;
+}
+
 .container {
     margin: 30px auto;
     display: flex;
@@ -33,5 +37,22 @@
 .rightside {
     width: 100%;
     /* 佔滿整個 .item2 的寬度 */
-    margin: 0 60px;
+    margin: 0 38px;
+}
+
+h3 {
+    color: #37523d;
+    margin-top: 123px;
+    margin-bottom: 42px;
+}
+
+p {
+    color: #2d2d2d;
+    margin-bottom: 42px;
+
+}
+
+.slogan {
+    color: #37523d;
+    font-weight: bold;
 }
