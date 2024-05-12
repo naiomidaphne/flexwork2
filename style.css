@@ -1,0 +1,13 @@
+.container {
+    margin: 30px auto;
+    display: flex;
+}
+
+.item1,
+item2 {
+    margin: 0 15px;
+}
+
+.item2 {
+    background-color: #e7eeea;
+}
