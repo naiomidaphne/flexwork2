@@ -1,13 +1,28 @@
 .container {
     margin: 30px auto;
     display: flex;
+    width: 1137px;
+    height: 710px;
 }
 
 .item1,
-item2 {
-    margin: 0 15px;
+.item2 {
+    width: 553px;
+    height: 100%;
+    background-color: #e7eeea;
+}
+
+.item1 {
+    margin-right: 15px;
+    margin-left: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .item2 {
-    background-color: #e7eeea;
+    margin-right: 9px;
+    display: flex;
 }
+
+.rightside {}
