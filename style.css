@@ -23,6 +23,15 @@
 .item2 {
     margin-right: 9px;
     display: flex;
+    /* 使用 Flexbox */
+    align-items: center;
+    /* 垂直置中 */
+    justify-content: center;
+    /* 水平置中 */
 }
 
-.rightside {}
+.rightside {
+    width: 100%;
+    /* 佔滿整個 .item2 的寬度 */
+    margin: 0 60px;
+}
